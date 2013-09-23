@@ -4,7 +4,7 @@ function a() {
 document.write("yo");
 $.ajax({
             type: "POST",
-            url: "http://smarthome.cs.virginia.edu/webservice/try2.psp",
+            url: "try2.psp",
             data: ({
                 username: "kamin",
                 password: "kamin"
