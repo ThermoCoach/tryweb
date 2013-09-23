@@ -19,7 +19,7 @@ $.ajax({
         });
 
         function eventsbind(data) {
-            alert(data);
+            document.write(data);
             events = data;
 
         }
