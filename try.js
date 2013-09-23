@@ -4,7 +4,7 @@ function a() {
 document.write("yo");
 $.ajax({
             type: "POST",
-            url: "try2.psp",
+            url: "http://localhost/try2.psp",
             data: ({
                 username: "kamin",
                 password: "kamin"
