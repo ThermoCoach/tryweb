@@ -1,6 +1,7 @@
 
 
 function a() {
+document.write("yo");
 $.ajax({
             type: "POST",
             url: "http://smarthome.cs.virginia.edu/webservice/try2.psp",
